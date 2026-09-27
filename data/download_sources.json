@@ -1,0 +1,14 @@
+{
+  "schema_version": "april.public_test_sources.v1",
+  "observed_date": "2026-09-24",
+  "evidence_method": "Unauthenticated Hugging Face dataset metadata API with blobs=true; only public metadata read",
+  "historical_revision_claim": false,
+  "fresh_download_validated": false,
+  "content_rule": "Pinned public test files are acquisition candidates; prepare_data.py must still verify every historical prompt/reference hash",
+  "sources": {
+    "xsum": {"repo": "EdinburghNLP/xsum", "revision": "7d4d486c2f8ef850b1a11aead99b894ff3dd7da9", "file": "data/test-00000-of-00001.parquet", "stem": "xsum_test", "bytes": 16731226, "sha256": "224e9dbc6fed987759c1954603b43cb280b8d475d78893779130aa707d967ed7"},
+    "gsm8k": {"repo": "openai/gsm8k", "revision": "740312add88f781978c0658806c59bc2815b9866", "file": "main/test-00000-of-00001.parquet", "stem": "gsm8k_test", "bytes": 419088, "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59"},
+    "humaneval": {"repo": "openai/openai_humaneval", "revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544", "file": "openai_humaneval/test-00000-of-00001.parquet", "stem": "humaneval_test", "bytes": 83920, "sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6"},
+    "cnn": {"repo": "abisee/cnn_dailymail", "revision": "96df5e686bee6baa90b8bee7c28b81fa3fa6223d", "file": "3.0.0/test-00000-of-00001.parquet", "stem": "cnn_dm_test", "bytes": 30000471, "sha256": "04e322d2634a96dba76bf9a6294fbbe48e0b36abeae43f13d86ba2c3bebffe4e"}
+  }
+}

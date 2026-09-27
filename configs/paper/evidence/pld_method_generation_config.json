@@ -1,0 +1,20 @@
+{
+  "config_sha256_by_method": {
+    "Prompt_Lookup_Decoding": "87de20a190fc925f665a867acf3ba3cad0a368a1e2775ddc1384efe93acea7ba"
+  },
+  "methods": {
+    "Prompt_Lookup_Decoding": {
+      "implementation": "transformers.generation.candidate_generator.PromptLookupCandidateGenerator",
+      "max_matching_ngram_size": 2,
+      "max_new_tokens": 256,
+      "miss_fallback": "target autoregressive step",
+      "num_output_tokens": 10,
+      "occurrence_selection_policy": "first valid occurrence",
+      "request_local": true,
+      "sample": false,
+      "transformers_version": "4.45.2",
+      "verifier": "frozen Gate-C target full-forward accept/crop plus epsilon=0.02 Q1 recheck"
+    }
+  },
+  "schema_version": "PromptLookup.full.method_config.v1"
+}

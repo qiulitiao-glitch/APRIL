@@ -1,0 +1,105 @@
+{
+  "authoritative_snapshot": "PAPER_FROZEN_CONFIG.json",
+  "snapshot_section": "sections.dataset_protocol",
+  "settings": {
+    "identity_file": "data/dataset_identity.json",
+    "request_plan_file": "data/paper_request_plan.json",
+    "preparation_script": "scripts/prepare_data.py",
+    "download_candidates_file": "data/download_sources.json",
+    "download_candidates_are_historical_revisions": false,
+    "workloads": {
+      "cnn_dm_summarization": {
+        "canonical_source": "abisee/cnn_dailymail",
+        "version_or_config": "3.0.0",
+        "historical_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "split": "test",
+        "requests": 1000,
+        "prompt_template": "Article:\n{article}\n\nSummarize the article in a concise paragraph.",
+        "selection": "Exact IDs/order in identity_file; all generated prompt/reference SHA256 values must match.",
+        "preprocessing": "See preparation_script core().",
+        "maximum_input_tokens": null,
+        "truncation": "No tokenizer input truncation; CNN/DM continuation is a separate word-based prompt-construction task"
+      },
+      "cnn_dm_lm": {
+        "canonical_source": "abisee/cnn_dailymail",
+        "version_or_config": "3.0.0",
+        "historical_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "split": "test",
+        "requests": 998,
+        "prompt_template": "Continue the following news article:\n\n{prefix_words}",
+        "selection": "Exact IDs/order in identity_file; all generated prompt/reference SHA256 values must match.",
+        "preprocessing": "From selected CNN articles, whitespace split; exclude <80 words; prefix n=min(160,max(64,len(words)//3)); reference next 96 words; exclude empty continuation; 998 remain. This is continuation, not summarization.",
+        "maximum_input_tokens": null,
+        "truncation": "No tokenizer input truncation; CNN/DM continuation is a separate word-based prompt-construction task"
+      },
+      "xsum_summarization": {
+        "canonical_source": "EdinburghNLP/xsum",
+        "version_or_config": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "historical_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "split": "test",
+        "requests": 1000,
+        "prompt_template": "Document:\n{document}\n\nWrite a one-sentence summary of the document.",
+        "selection": "Exact IDs/order in identity_file; all generated prompt/reference SHA256 values must match.",
+        "preprocessing": "See preparation_script core().",
+        "maximum_input_tokens": null,
+        "truncation": "No tokenizer input truncation; CNN/DM continuation is a separate word-based prompt-construction task"
+      },
+      "humaneval": {
+        "canonical_source": "openai/openai_humaneval",
+        "version_or_config": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "historical_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "split": "test",
+        "requests": 164,
+        "prompt_template": "{prompt}",
+        "selection": "Exact IDs/order in identity_file; all generated prompt/reference SHA256 values must match.",
+        "preprocessing": "See hash-checked preparation_script; preserves original HumanEval prompt and indentation, never executes code.",
+        "maximum_input_tokens": null,
+        "truncation": "No tokenizer input truncation; CNN/DM continuation is a separate word-based prompt-construction task"
+      },
+      "gsm8k": {
+        "canonical_source": "openai/gsm8k",
+        "version_or_config": "main",
+        "historical_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "split": "test",
+        "requests": 1000,
+        "prompt_template": "Question:\n{question}\n\nLet's think step by step.",
+        "selection": "Exact IDs/order in identity_file; all generated prompt/reference SHA256 values must match.",
+        "preprocessing": "See preparation_script core().",
+        "maximum_input_tokens": null,
+        "truncation": "No tokenizer input truncation; CNN/DM continuation is a separate word-based prompt-construction task"
+      },
+      "aqua_rat": {
+        "canonical_source": "AQuA-RAT",
+        "version_or_config": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "historical_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "split": "test",
+        "requests": 254,
+        "prompt_template": "Question:\n{question}\n\nOptions:\n{options}\n\nLet's think step by step and select the correct option.",
+        "selection": "Exact IDs/order in identity_file; all generated prompt/reference SHA256 values must match.",
+        "preprocessing": "See preparation_script core().",
+        "maximum_input_tokens": null,
+        "truncation": "No tokenizer input truncation; CNN/DM continuation is a separate word-based prompt-construction task"
+      },
+      "wmt14_de_en": {
+        "canonical_source": "WMT14 German-English",
+        "version_or_config": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "historical_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+        "split": "test",
+        "requests": 1000,
+        "prompt_template": "Translate the following German sentence into English:\n\nGerman: {source}\nEnglish:",
+        "selection": "Exact IDs/order in identity_file; all generated prompt/reference SHA256 values must match.",
+        "preprocessing": "See preparation_script core().",
+        "maximum_input_tokens": null,
+        "truncation": "No tokenizer input truncation; CNN/DM continuation is a separate word-based prompt-construction task"
+      }
+    },
+    "ordering": "Explicit frozen source_index and Williams per-request method order in paper_request_plan.json; preserve controller shard continuity.",
+    "selection_seed": "GSM8K random.Random(42), sorted sample of 1000 from 1319; other task selection identities pinned by manifest; original selection seed for other sampled tasks unresolved.",
+    "redistributed_payloads": false,
+    "hash_mismatch_policy": "Abort; never replace missing/mismatched examples",
+    "historical_malformed_handling": "HYPERPARAMETER_VALUE_UNRESOLVED",
+    "tokenizer_max_input_length": null,
+    "tokenizer_truncation": false,
+    "few_shot_exemplars": "None inserted by hash-checked preparation script."
+  }
+}

@@ -1,0 +1,2 @@
+{"prompt_id":"synthetic-repeat-001","task":"synthetic","prompt":"Continue this exact repeating sequence: red blue green red blue green red blue green red blue green red blue green"}
+{"prompt_id":"synthetic-fallback-002","task":"synthetic","prompt":"Explain briefly why a triangle has three sides."}

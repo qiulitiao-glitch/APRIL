@@ -1,0 +1,24 @@
+{
+  "excludes": [
+    "model and tokenizer load",
+    "warmup",
+    "prompt tokenization",
+    "output detokenization",
+    "quality scoring",
+    "result file writes",
+    "compute-process boundary queries"
+  ],
+  "includes": [
+    "prefill",
+    "proposal generation",
+    "request-local lookup",
+    "self drafting",
+    "target verification",
+    "near-tie exact recheck",
+    "cache update and replay",
+    "method-internal Python overhead"
+  ],
+  "metric": "generation elapsed with CUDA synchronization immediately before and after generation",
+  "primary_tps_aggregation": "ratio-of-sums: sum(generated tokens) / sum(generation latency)",
+  "schema_version": "APRIL.direct_lookup.timing_contract.v1"
+}

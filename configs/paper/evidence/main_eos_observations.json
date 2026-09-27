@@ -1,0 +1,26 @@
+{
+  "eos_token_id": 2,
+  "methods": {
+    "AR": {
+      "rows": 5416,
+      "eos_reached": 119,
+      "returned_eos_occurrences": 0
+    },
+    "LayerSkip": {
+      "rows": 5416,
+      "eos_reached": 119,
+      "returned_eos_occurrences": 0
+    },
+    "APRIL": {
+      "rows": 5416,
+      "eos_reached": 119,
+      "returned_eos_occurrences": 0
+    },
+    "DEL": {
+      "rows": 5416,
+      "eos_reached": 119,
+      "returned_eos_occurrences": 0
+    }
+  },
+  "scope": "Observed returned tokens only; evidence about all archived requests, not unobserved inputs."
+}

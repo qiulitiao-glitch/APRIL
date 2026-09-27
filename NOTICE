@@ -1,0 +1,8 @@
+Required Notice: Copyright 2026 Litiao Qiu
+
+APRIL-owned source code is licensed under the PolyForm Noncommercial License
+1.0.0 in LICENSE. This grant applies only to APRIL-owned portions.
+
+Third-party software, model weights, and datasets retain their own terms.
+This license does not apply to DEL, LayerSkip, PyTorch, Transformers, or other
+third-party materials. See THIRD_PARTY_NOTICES.md.

@@ -1,0 +1,10 @@
+{
+  "LayerSkip": {
+    "url": "https://github.com/facebookresearch/LayerSkip",
+    "revision": "494752e5fbb0a82989f6cb384841684b1c2ef5c3",
+    "sha256": {
+      "self_speculation/llama_model_utils.py": "5eb454b12b4c99f97b94acdcff0b52c38eeb9d1ce986e10e2b4658e9bc479da2",
+      "LICENSE": "5597bb25219e348387edfbf34cfed051cb7f9be29b6488731b9b48db75dcc8eb"
+    }
+  }
+}

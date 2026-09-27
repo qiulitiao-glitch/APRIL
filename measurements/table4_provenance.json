@@ -1,0 +1,15 @@
+{
+  "source_campaign": "APRIL-core-ablation",
+  "source_file": "factorial_2x2/raw_results.jsonl",
+  "source_sha256": "c6554cb936e4b4961862f439b5b64f13493cb06ede5eacf635c4df20d4b92f24",
+  "exported_file": "table4_measurements.jsonl",
+  "exported_sha256": "9bb1122911f8b5087802e60efd36ade99d1fb7c1b648825a955568404ffcc45b",
+  "rows": 1792,
+  "expected_per_task_method": 64,
+  "expected_methods": [
+    "A_static_l7k6_retrieval_off",
+    "B_frozen_controller_retrieval_off",
+    "C_frozen_controller_retrieval_on",
+    "D_static_l7k6_retrieval_on"
+  ]
+}

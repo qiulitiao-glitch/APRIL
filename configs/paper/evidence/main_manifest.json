@@ -1,0 +1,122 @@
+{
+  "schema_version": "APRIL.paper_campaign.plan.v1",
+  "april_freeze_id": "APRIL-paper-profile-v1",
+  "april_freeze_commit": "SOURCE_REVISION_NOT_DISTRIBUTED",
+  "dtype": "float16",
+  "attention_backend": "eager",
+  "cache_backend": "transformers.cache_utils.DynamicCache",
+  "greedy": true,
+  "batch_size": 1,
+  "max_new_tokens": 256,
+  "eos_enabled": true,
+  "epsilon": 0.02,
+  "seed": 20260712,
+  "task_counts": {
+    "cnn_dm_summarization": 1000,
+    "cnn_dm_lm": 998,
+    "xsum_summarization": 1000,
+    "humaneval": 164,
+    "gsm8k": 1000,
+    "aqua_rat": 254,
+    "wmt14_de_en": 1000
+  },
+  "claim_policy": {
+    "lossless_claim": false,
+    "token_exact_claim": false,
+    "token_mismatch_is_diagnostic_only": true
+  },
+  "timing_contract": {
+    "elapsed": "frozen generator result.total_time",
+    "tokenization": "outside elapsed interval",
+    "decode": "outside elapsed interval",
+    "quality": "outside elapsed interval on CPU",
+    "result_file_writes": "outside elapsed interval",
+    "ttft": "host call to first non-draft streamer emission"
+  },
+  "data": {
+    "cnn_dm_summarization": {
+      "task": "cnn_dm_summarization",
+      "sha256": "b3b42d2e4c827c606b31e0c930456c393d0be7761e1001aa02a7a8f9a8658d86",
+      "rows": 1000,
+      "expected_rows": 1000,
+      "prompt_id_unique": true,
+      "uniqueness_key": "prompt_id",
+      "padding_or_repetition_added": false,
+      "prompt_text_deduplicated": false,
+      "native_duplicate_prompt_text_count": 1,
+      "native_duplicate_prompt_text_groups": 1
+    },
+    "cnn_dm_lm": {
+      "task": "cnn_dm_lm",
+      "sha256": "544380b91b7533e2d5ff14469edb83f8ac6f6695c0758af5c208814740001e56",
+      "rows": 998,
+      "expected_rows": 998,
+      "prompt_id_unique": true,
+      "uniqueness_key": "prompt_id",
+      "padding_or_repetition_added": false,
+      "prompt_text_deduplicated": false,
+      "native_duplicate_prompt_text_count": 1,
+      "native_duplicate_prompt_text_groups": 1
+    },
+    "xsum_summarization": {
+      "task": "xsum_summarization",
+      "sha256": "774cd8f50c478d40e37e993f49e9f799814c5476a785b709be817e323ceb041a",
+      "rows": 1000,
+      "expected_rows": 1000,
+      "prompt_id_unique": true,
+      "uniqueness_key": "prompt_id",
+      "padding_or_repetition_added": false,
+      "prompt_text_deduplicated": false,
+      "native_duplicate_prompt_text_count": 0,
+      "native_duplicate_prompt_text_groups": 0
+    },
+    "humaneval": {
+      "task": "humaneval",
+      "sha256": "21b8bc5e258eb95637333572aa232dad14dc0b11165cc9598964f8eb883061da",
+      "rows": 164,
+      "expected_rows": 164,
+      "prompt_id_unique": true,
+      "uniqueness_key": "prompt_id",
+      "padding_or_repetition_added": false,
+      "prompt_text_deduplicated": false,
+      "native_duplicate_prompt_text_count": 0,
+      "native_duplicate_prompt_text_groups": 0
+    },
+    "gsm8k": {
+      "task": "gsm8k",
+      "sha256": "1aed6fa4e4eb723d875f73b4b89a07c000812f090d348602f5ac7a0b29f573b0",
+      "rows": 1000,
+      "expected_rows": 1000,
+      "prompt_id_unique": true,
+      "uniqueness_key": "prompt_id",
+      "padding_or_repetition_added": false,
+      "prompt_text_deduplicated": false,
+      "native_duplicate_prompt_text_count": 0,
+      "native_duplicate_prompt_text_groups": 0
+    },
+    "aqua_rat": {
+      "task": "aqua_rat",
+      "sha256": "83f2f9e7056c91218e1a1d4cf1f20dedd48a7eea590de37743ebb4510eb971de",
+      "rows": 254,
+      "expected_rows": 254,
+      "prompt_id_unique": true,
+      "uniqueness_key": "prompt_id",
+      "padding_or_repetition_added": false,
+      "prompt_text_deduplicated": false,
+      "native_duplicate_prompt_text_count": 0,
+      "native_duplicate_prompt_text_groups": 0
+    },
+    "wmt14_de_en": {
+      "task": "wmt14_de_en",
+      "sha256": "18f305e7db0e307f4ac052c56cd253e434ee49819d464e124f136a2be65288c6",
+      "rows": 1000,
+      "expected_rows": 1000,
+      "prompt_id_unique": true,
+      "uniqueness_key": "prompt_id",
+      "padding_or_repetition_added": false,
+      "prompt_text_deduplicated": false,
+      "native_duplicate_prompt_text_count": 0,
+      "native_duplicate_prompt_text_groups": 0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "public_repo": "facebook/layerskip-llama2-7B",
+  "revision": null,
+  "content_verified_public_revision": "7e0b20094ef76fb18fd8a9bdf7ee019c3d7b8880",
+  "best_available_identity": {
+    "artifact_set_sha256": "40cca20e31f0e25943d18219b9a99f13d923beedac5d90472a7730723c6dfc89",
+    "artifacts": {
+      "config.json": "f884817531e2589b45a2d00993d3cf1f67253866a343f4c574c510ee82b1697f",
+      "generation_config.json": "53912d1e42e24314ffb9eeb49f2074c2d2aae8081242d844fc58e2779d19ee78",
+      "model-00001-of-00003.safetensors": "2b7dfa0d333b3bb5b7887c8b0f438ff5f19e2419d383df68fc39d9447cd65baf",
+      "model-00002-of-00003.safetensors": "355e5fc19f1aa322ce1bc110b29f4d71d41d4d7abfdacfabdde5ebfead818e9b",
+      "model-00003-of-00003.safetensors": "99fa5347306b922848061f684c4f3dab747ab8d9669c4c7b0d9f71f027428870",
+      "model.safetensors.index.json": "4b09b953be2901b9f824fd1a7a91ef7f4f15726f6e7b6c2cfc4c5cee03975963",
+      "special_tokens_map.json": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+      "tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "tokenizer_config.json": "bcdc6f267b05e1afd27fa622a62fea649bcb941e6dc705d2835883a0746192da"
+    }
+  }
+}

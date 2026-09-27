@@ -1,0 +1,49 @@
+{
+  "scope": "Public descriptive-label normalization; no algorithm, numeric hyperparameter, request-content, timing-boundary or measured count/time changes.",
+  "runtime_source_sha256": {
+    "exact_recheck.py": "bb1d9a966e36352c03359cc9ccda8c08c9605c21601b0fc42fc0b9f51af25df8",
+    "lookup.py": "9d0fc5289376f86f5e8132d8323965c118c1889b48a3458a961d20ee0c0caa86",
+    "cli.py": "0344983d1f88197a6e0c110c8f728ab4f3ab4e3b6174a64ab69c02931bbdb940",
+    "controller_core.py": "c1e978b24a3a2278c066934c8d7057f3760ca0dd674e71281680d4c38ae48ee5",
+    "__init__.py": "4820f63ca3fd5b24f396fca8c2caf504b3cb7f3974ec78cb298400968ed81b78",
+    "model_adapter.py": "368bf404635ef1321847ca039c4b88e41333061306660d5f08ecc52c4e1a8e0e",
+    "generation.py": "1c7c8cf444eb6fc630c08486bdec23342b3304a94ea4dfd048d35954d0aa2917",
+    "config.py": "719898e1d5228a179c8de6b2d28310beabb5a572a5d186b67def2fc6ea458790",
+    "controller.py": "19d50b44a07effc7318910edc03f74325c6e97e9aecf36c03ce8c13f36b8a2f6",
+    "hardware.py": "b9016f83131d30fa4d9f7ce413c4398ef6738f7c077ba53be0be03bb6eead2d2",
+    "compute_guard.py": "d905a0a42ef29035af3894c8f50442c0bcf3b8c7c079af3319b6cbe1c82ebf74"
+  },
+  "frozen_config_sha256": "a6127101a526743fa3b22b6d83b4def657cda308c44ac0dfa847138883d7541d",
+  "algorithm_ast_comparison": "PASS: identical after normalizing approved descriptive string constants only",
+  "frozen_numeric_settings": "UNCHANGED",
+  "archived_measurement_values": "UNCHANGED",
+  "request_stream_content_and_order": "UNCHANGED; two neutral stream labels",
+  "installation": "Editable installation and pip check passed",
+  "tests_passed": 22,
+  "configuration_checks_passed": 142,
+  "table2_overall_tps": {
+    "AR": 20.62,
+    "LayerSkip": 28.04,
+    "DEL": 31.53,
+    "PLD": 37.25,
+    "APRIL": 40.04
+  },
+  "table4_overall_tps": {
+    "static_only": 31.48,
+    "adaptive_only": 32.08,
+    "static_plus_lookup": 39.45,
+    "APRIL": 40.0
+  },
+  "repeat_smoke": {
+    "status": "COMPLETE",
+    "requests": 2,
+    "tokens": 64,
+    "lookup_hits": 13,
+    "self_draft_rounds": 8,
+    "controller_updates": 8
+  },
+  "repeat_smoke_token_identity": "2/2 requests identical to the pre-normalization public runtime",
+  "hardware_recording": "Complete, valid sampled process checks and power samples covering the workload; no requested hardware changes",
+  "historical_qualification": "64/64 and 448/448 historical comparisons remain in implementation_validation.json under their original source hashes; those campaigns were not rerun for this metadata-only revision.",
+  "external_assets": "Reused hash-verified official model and external API; fresh network acquisition remains outside this validation."
+}

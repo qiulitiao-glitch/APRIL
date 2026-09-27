@@ -1,0 +1,77 @@
+{
+  "qualification": "PUBLIC_REPO_READY_TECHNICAL",
+  "scope": "Public versus frozen historical implementation on the main RTX 6000 Ada profile; not universal autoregressive equality.",
+  "stage_a": {
+    "paired": 64,
+    "token_matches": 64,
+    "mechanism_difference_requests": 0,
+    "public_tps": 48.295818320504104,
+    "historical_tps": 48.13053326586886,
+    "tps_percent": 0.34340997994395384,
+    "public_tokens": 15843,
+    "historical_tokens": 15843,
+    "public_seconds": 328.04082322120667,
+    "historical_seconds": 329.1673481464386,
+    "status": "PASS"
+  },
+  "stage_b": {
+    "paired": 448,
+    "token_matches": 448,
+    "mechanism_difference_requests": 0,
+    "public_tps": 39.93119077232809,
+    "historical_tps": 39.82572780505895,
+    "tps_percent": 0.26481114867595856,
+    "public_tokens": 112134,
+    "historical_tokens": 112134,
+    "public_seconds": 2808.1807186603546,
+    "historical_seconds": 2815.6170942783356,
+    "status": "PASS"
+  },
+  "stage_b_requests_per_workload": 64,
+  "smoke": {
+    "status": "COMPLETE",
+    "requests": 2,
+    "tokens": 64,
+    "lookup_hits": 13,
+    "self_draft_rounds": 8,
+    "controller_updates": 8,
+    "restricted_modules_imported": []
+  },
+  "baseline_canaries": [
+    {
+      "method": "smoke",
+      "returncode": 0
+    },
+    {
+      "method": "ar",
+      "returncode": 0
+    },
+    {
+      "method": "layerskip",
+      "returncode": 0
+    },
+    {
+      "method": "pld",
+      "returncode": 0
+    }
+  ],
+  "tests_passed": 22,
+  "configuration_checks_passed": 142,
+  "data_prompt_reference_identities_verified": 5416,
+  "fresh_network_acquisition": "NOT_FULLY_QUALIFIED; existing raw data used",
+  "publication": "APRIL-owned source licensed under PolyForm Noncommercial 1.0.0; Copyright 2026 Litiao Qiu. Third-party rights unchanged.",
+  "historical_qualification_runtime_source_sha256": {
+    "generation.py": "1c7c8cf444eb6fc630c08486bdec23342b3304a94ea4dfd048d35954d0aa2917",
+    "controller_core.py": "c1e978b24a3a2278c066934c8d7057f3760ca0dd674e71281680d4c38ae48ee5",
+    "controller.py": "19d50b44a07effc7318910edc03f74325c6e97e9aecf36c03ce8c13f36b8a2f6",
+    "lookup.py": "1b50630406a45e4b73c4b9055d038d2470a17b82c2b17dc8fbe66d36835e5bdd",
+    "compute_guard.py": "d905a0a42ef29035af3894c8f50442c0bcf3b8c7c079af3319b6cbe1c82ebf74",
+    "config.py": "719898e1d5228a179c8de6b2d28310beabb5a572a5d186b67def2fc6ea458790",
+    "cli.py": "0344983d1f88197a6e0c110c8f728ab4f3ab4e3b6174a64ab69c02931bbdb940",
+    "model_adapter.py": "368bf404635ef1321847ca039c4b88e41333061306660d5f08ecc52c4e1a8e0e",
+    "exact_recheck.py": "bb1d9a966e36352c03359cc9ccda8c08c9605c21601b0fc42fc0b9f51af25df8",
+    "__init__.py": "4820f63ca3fd5b24f396fca8c2caf504b3cb7f3974ec78cb298400968ed81b78",
+    "hardware.py": "11d16d130b3cbd63037b684fb3aad35ad5d4a354f4bccbe90bcc28aebad31e61"
+  },
+  "public_metadata_revision_note": "Historical qualification hashes predate public label normalization. Algorithm AST and frozen numeric settings are unchanged; current source hashes and repeat smoke are recorded separately in public_metadata_validation.json."
+}

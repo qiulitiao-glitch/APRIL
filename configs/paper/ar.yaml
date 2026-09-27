@@ -1,0 +1,64 @@
+{
+  "authoritative_snapshot": "PAPER_FROZEN_CONFIG.json",
+  "snapshot_section": "sections.ar",
+  "settings": {
+    "generation": {
+      "batch_size": 1,
+      "max_new_tokens": 256,
+      "eos_enabled": true,
+      "greedy": true,
+      "dtype": "float16",
+      "attention_backend": "eager",
+      "cache_backend": "transformers.cache_utils.DynamicCache",
+      "seed": 20260712,
+      "request_concurrency": 1,
+      "sample": false,
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "top_k": 0,
+      "inactive_sampling_parameters": [
+        "temperature",
+        "top_p",
+        "top_k"
+      ],
+      "warmup": "One target-model greedy 10-token warmup on This is a warmup prompt; april_evaluation_source:969.",
+      "padding": {
+        "model_generation_pad_token_id": 2,
+        "tokenizer_pad_token": null,
+        "actual_batch_padding_rule": "No batch padding; one prompt per call"
+      },
+      "prompt_truncation": "No tokenizer truncation requested",
+      "context_window_limit": {
+        "checkpoint_max_position_embeddings": 2048,
+        "runner_input_enforcement": "No explicit input-length truncation in generation wrapper"
+      },
+      "bos_eos_insertion": {
+        "tokenizer_add_bos_token": true,
+        "tokenizer_add_eos_token": false,
+        "generation_call_overrides": {
+          "add_special_tokens": true
+        }
+      },
+      "stop_words": null,
+      "stop_token_ids": [],
+      "returned_eos_evidence": "All 119 EOS-shortened requests per main method omit EOS token 2 from returned tokens; main_eos_observations evidence.",
+      "timing": {
+        "record_field": "result.total_time",
+        "cuda_synchronization": "before and after generation (cross-device manifest)",
+        "start_end_exact_statements": "Reproduction metadata: time.time clock; CUDA synchronize immediately before start and after generate_token_ids; total_time is elapsed over that call.",
+        "prefill_included": true,
+        "data_loading_included": false,
+        "tokenization_included": false,
+        "detokenization_included": false,
+        "record_io_included": false,
+        "recovery_included": true,
+        "lookup_controller_transfer_included": true,
+        "boundary_note": "Frozen wrapper times generate_token_ids including prefill, with CUDA synchronize before/after; tokenization precedes timer and detokenization follows it."
+      }
+    },
+    "exit_layer": -1,
+    "num_speculations": -1,
+    "strategy": "autoregressive",
+    "source": "APRIL-owned april_baseline_source:build_config"
+  }
+}

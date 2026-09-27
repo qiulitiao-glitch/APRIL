@@ -1,0 +1,95 @@
+{
+  "purpose": "Comparison only; NEVER a measurement input to regenerate_table2.py",
+  "source": "v5_table2_printed.csv",
+  "source_sha256": "0510970b3738dcb7a1f8a5604a2daeda21e364c6916a259bda149d33567fd50f",
+  "rows": [
+    {
+      "task": "cnn_dm_summarization",
+      "requests": 1000,
+      "tps": {
+        "AR": 20.31,
+        "LayerSkip": 34.15,
+        "DEL": 35.73,
+        "PLD": 49.18,
+        "APRIL": 49.24
+      }
+    },
+    {
+      "task": "xsum_summarization",
+      "requests": 1000,
+      "tps": {
+        "AR": 20.67,
+        "LayerSkip": 38.36,
+        "DEL": 43.13,
+        "PLD": 57.12,
+        "APRIL": 60.61
+      }
+    },
+    {
+      "task": "humaneval",
+      "requests": 164,
+      "tps": {
+        "AR": 20.87,
+        "LayerSkip": 31.51,
+        "DEL": 34.23,
+        "PLD": 40.65,
+        "APRIL": 43.24
+      }
+    },
+    {
+      "task": "wmt14_de_en",
+      "requests": 1000,
+      "tps": {
+        "AR": 20.61,
+        "LayerSkip": 26.21,
+        "DEL": 30.49,
+        "PLD": 35.85,
+        "APRIL": 39.5
+      }
+    },
+    {
+      "task": "cnn_dm_lm",
+      "requests": 998,
+      "tps": {
+        "AR": 20.9,
+        "LayerSkip": 20.3,
+        "DEL": 23.95,
+        "PLD": 24.26,
+        "APRIL": 27.69
+      }
+    },
+    {
+      "task": "gsm8k",
+      "requests": 1000,
+      "tps": {
+        "AR": 20.45,
+        "LayerSkip": 26.8,
+        "DEL": 29.19,
+        "PLD": 35.15,
+        "APRIL": 36.2
+      }
+    },
+    {
+      "task": "aqua_rat",
+      "requests": 254,
+      "tps": {
+        "AR": 21.09,
+        "LayerSkip": 33.01,
+        "DEL": 36.81,
+        "PLD": 43.57,
+        "APRIL": 45.98
+      }
+    },
+    {
+      "task": "OVERALL",
+      "requests": 5416,
+      "tps": {
+        "AR": 20.62,
+        "LayerSkip": 28.04,
+        "DEL": 31.53,
+        "PLD": 37.25,
+        "APRIL": 40.04
+      }
+    }
+  ]
+}

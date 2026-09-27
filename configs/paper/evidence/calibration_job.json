@@ -1,0 +1,20 @@
+{
+  "scheduler": "tr_nes_breadth_first_scheduler",
+  "run_prefix": "april-calibration-validation",
+  "stage": 64,
+  "tasks": [
+    "april_task_agnostic_calibration"
+  ],
+  "datasets": [
+    "april_task_agnostic_calibration_stage64"
+  ],
+  "records": {
+    "april_task_agnostic_calibration_stage64": 64
+  },
+  "gpu_id": null,
+  "strategies": "tr_safe_direct_d4_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d5_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d6_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d7_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d8_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d9_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d10_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d11_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d12_k20_fk6_s70_c55_p1_q4_r0_hw_ti8",
+  "max_steps": "64",
+  "max_jobs_per_gpu": 1,
+  "requested_profile": "not_requested",
+  "gpu_id_note": "Select a suitable local device; the original ordinal is not part of the public profile."
+}

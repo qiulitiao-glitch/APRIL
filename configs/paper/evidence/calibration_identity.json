@@ -1,0 +1,397 @@
+{
+  "calibration_file": "april_task_agnostic_calibration_stage64.jsonl",
+  "calibration_sha256": "e5b63faadd576508a4c8d937d575adc776b4c5458efbd9bf815de3437f61d27e",
+  "records": [
+    {
+      "index": 0,
+      "prompt_id": "april-calib-000",
+      "prompt_sha256": "c10dc8cfc3ff86ea4a03366c76e5ffb20d905228df75449025472f4185a18405",
+      "normalized_sha256": "c10dc8cfc3ff86ea4a03366c76e5ffb20d905228df75449025472f4185a18405"
+    },
+    {
+      "index": 1,
+      "prompt_id": "april-calib-001",
+      "prompt_sha256": "b77a429bcb35c68c07a9ab8d7126465abe99c26b235f324140a41929bf4848be",
+      "normalized_sha256": "b77a429bcb35c68c07a9ab8d7126465abe99c26b235f324140a41929bf4848be"
+    },
+    {
+      "index": 2,
+      "prompt_id": "april-calib-002",
+      "prompt_sha256": "aab7709c4c7bb25c02ad7959347aa69a0bc894e60c94caff86fdb3db30adaeb2",
+      "normalized_sha256": "aab7709c4c7bb25c02ad7959347aa69a0bc894e60c94caff86fdb3db30adaeb2"
+    },
+    {
+      "index": 3,
+      "prompt_id": "april-calib-003",
+      "prompt_sha256": "bdfc9c7599ef42385231d4b11409fce7a6d43013022a4b14f1ff7283fd978ae5",
+      "normalized_sha256": "bdfc9c7599ef42385231d4b11409fce7a6d43013022a4b14f1ff7283fd978ae5"
+    },
+    {
+      "index": 4,
+      "prompt_id": "april-calib-004",
+      "prompt_sha256": "087a0724de34e49714c13bbe1d34106a22af91a4b25a9f1708bffbd3f721d60e",
+      "normalized_sha256": "087a0724de34e49714c13bbe1d34106a22af91a4b25a9f1708bffbd3f721d60e"
+    },
+    {
+      "index": 5,
+      "prompt_id": "april-calib-005",
+      "prompt_sha256": "6d93f6b31f8252164318289f34c06dbed3868454db8214479aa70072c9e52540",
+      "normalized_sha256": "6d93f6b31f8252164318289f34c06dbed3868454db8214479aa70072c9e52540"
+    },
+    {
+      "index": 6,
+      "prompt_id": "april-calib-006",
+      "prompt_sha256": "3f7757e11e89ae12a7e7d23deb9a3387d0d392057dfe0c96571fbad6092fd617",
+      "normalized_sha256": "3f7757e11e89ae12a7e7d23deb9a3387d0d392057dfe0c96571fbad6092fd617"
+    },
+    {
+      "index": 7,
+      "prompt_id": "april-calib-007",
+      "prompt_sha256": "8302bc7e200a1e0cd517d5bde41210a603069500c6d8d7d4fa2b9b7c769e4376",
+      "normalized_sha256": "8302bc7e200a1e0cd517d5bde41210a603069500c6d8d7d4fa2b9b7c769e4376"
+    },
+    {
+      "index": 8,
+      "prompt_id": "april-calib-008",
+      "prompt_sha256": "89ffbf3a69d37b0e7f27d29fdc8ecdf55b314ab11cc1cc0cce34ab1da95c5914",
+      "normalized_sha256": "89ffbf3a69d37b0e7f27d29fdc8ecdf55b314ab11cc1cc0cce34ab1da95c5914"
+    },
+    {
+      "index": 9,
+      "prompt_id": "april-calib-009",
+      "prompt_sha256": "06be315272b80960007aec1a5e4fe09ba44b50a1e33c99d17c5a8d4aee797096",
+      "normalized_sha256": "06be315272b80960007aec1a5e4fe09ba44b50a1e33c99d17c5a8d4aee797096"
+    },
+    {
+      "index": 10,
+      "prompt_id": "april-calib-010",
+      "prompt_sha256": "22e0657df2e5e91d435a9fddb5e4bcc7c92cc3a503cd2d2deb24339d7a597d89",
+      "normalized_sha256": "22e0657df2e5e91d435a9fddb5e4bcc7c92cc3a503cd2d2deb24339d7a597d89"
+    },
+    {
+      "index": 11,
+      "prompt_id": "april-calib-011",
+      "prompt_sha256": "e26184a76c995ebf92bbd682d9f5fbc59ec365af01efc0393812e267dea2029c",
+      "normalized_sha256": "e26184a76c995ebf92bbd682d9f5fbc59ec365af01efc0393812e267dea2029c"
+    },
+    {
+      "index": 12,
+      "prompt_id": "april-calib-012",
+      "prompt_sha256": "76f7ef115868aeb541aa0a07aefe6d3dda32db43ecb78b416e072991cc3536ca",
+      "normalized_sha256": "76f7ef115868aeb541aa0a07aefe6d3dda32db43ecb78b416e072991cc3536ca"
+    },
+    {
+      "index": 13,
+      "prompt_id": "april-calib-013",
+      "prompt_sha256": "23e4603e1bcb5eedde08bea76f6e239d3eb67945e3fa753b1909e95295820536",
+      "normalized_sha256": "23e4603e1bcb5eedde08bea76f6e239d3eb67945e3fa753b1909e95295820536"
+    },
+    {
+      "index": 14,
+      "prompt_id": "april-calib-014",
+      "prompt_sha256": "b7fe2115dac7de3aabb97c8e1e3406db5fdfb20c0ea86516159ac177cfcfa0bd",
+      "normalized_sha256": "b7fe2115dac7de3aabb97c8e1e3406db5fdfb20c0ea86516159ac177cfcfa0bd"
+    },
+    {
+      "index": 15,
+      "prompt_id": "april-calib-015",
+      "prompt_sha256": "5ba4c67e9fda203a436385c406d0798d0c75abc943dc2a2c81c15653ecab0c4d",
+      "normalized_sha256": "5ba4c67e9fda203a436385c406d0798d0c75abc943dc2a2c81c15653ecab0c4d"
+    },
+    {
+      "index": 16,
+      "prompt_id": "april-calib-016",
+      "prompt_sha256": "7acf393f3242fc39c3133bfbd5183cd1e6d98bd14f35b39495afa1ffa1be9bb2",
+      "normalized_sha256": "7acf393f3242fc39c3133bfbd5183cd1e6d98bd14f35b39495afa1ffa1be9bb2"
+    },
+    {
+      "index": 17,
+      "prompt_id": "april-calib-017",
+      "prompt_sha256": "523f137ca442a041ed83e9062bd97e265edc548421136e79d6f762261b6eb4c9",
+      "normalized_sha256": "523f137ca442a041ed83e9062bd97e265edc548421136e79d6f762261b6eb4c9"
+    },
+    {
+      "index": 18,
+      "prompt_id": "april-calib-018",
+      "prompt_sha256": "70957192b3ba50e568e2dd6fd0513fdc2d22a9ff95525aba9748f3740d1fc47e",
+      "normalized_sha256": "70957192b3ba50e568e2dd6fd0513fdc2d22a9ff95525aba9748f3740d1fc47e"
+    },
+    {
+      "index": 19,
+      "prompt_id": "april-calib-019",
+      "prompt_sha256": "3f21605b159d8a6e1c7660d19d3a07ee527bbcf7393acda2c7c5af75c6e580fc",
+      "normalized_sha256": "3f21605b159d8a6e1c7660d19d3a07ee527bbcf7393acda2c7c5af75c6e580fc"
+    },
+    {
+      "index": 20,
+      "prompt_id": "april-calib-020",
+      "prompt_sha256": "e1daf1b4d223679bcad7288da14312da83df6517b37b12278f9574174db47d0b",
+      "normalized_sha256": "e1daf1b4d223679bcad7288da14312da83df6517b37b12278f9574174db47d0b"
+    },
+    {
+      "index": 21,
+      "prompt_id": "april-calib-021",
+      "prompt_sha256": "ede20b8ee4c735eab875b6c8dc77b0a947f0d4c78919bc67bafc566fa4b46fd7",
+      "normalized_sha256": "ede20b8ee4c735eab875b6c8dc77b0a947f0d4c78919bc67bafc566fa4b46fd7"
+    },
+    {
+      "index": 22,
+      "prompt_id": "april-calib-022",
+      "prompt_sha256": "c84a68b48e7b973f0dfcf503cc8effe1e08f32728a53651599758df06c8c80b0",
+      "normalized_sha256": "c84a68b48e7b973f0dfcf503cc8effe1e08f32728a53651599758df06c8c80b0"
+    },
+    {
+      "index": 23,
+      "prompt_id": "april-calib-023",
+      "prompt_sha256": "9bd44f2370736fcba7debbd41a811b5ca3a63fee9ce4b4645661f267153e213f",
+      "normalized_sha256": "9bd44f2370736fcba7debbd41a811b5ca3a63fee9ce4b4645661f267153e213f"
+    },
+    {
+      "index": 24,
+      "prompt_id": "april-calib-024",
+      "prompt_sha256": "8934f6b15a1875b788cee83a7fefe2e3ed559a63859da61cec67d99b3e080372",
+      "normalized_sha256": "8934f6b15a1875b788cee83a7fefe2e3ed559a63859da61cec67d99b3e080372"
+    },
+    {
+      "index": 25,
+      "prompt_id": "april-calib-025",
+      "prompt_sha256": "e7ae208e84165731a5ff44a84cb8817b9b25f77c599fac154fa99a51d131df38",
+      "normalized_sha256": "e7ae208e84165731a5ff44a84cb8817b9b25f77c599fac154fa99a51d131df38"
+    },
+    {
+      "index": 26,
+      "prompt_id": "april-calib-026",
+      "prompt_sha256": "8ab01128392a61907d98de732613a3cc66789ccd38c8cabe18d805d7ec4accd5",
+      "normalized_sha256": "8ab01128392a61907d98de732613a3cc66789ccd38c8cabe18d805d7ec4accd5"
+    },
+    {
+      "index": 27,
+      "prompt_id": "april-calib-027",
+      "prompt_sha256": "527052abc65bee70032202382d3e6398237a5d5cf5acf1a1cb0e4acf3417b4df",
+      "normalized_sha256": "527052abc65bee70032202382d3e6398237a5d5cf5acf1a1cb0e4acf3417b4df"
+    },
+    {
+      "index": 28,
+      "prompt_id": "april-calib-028",
+      "prompt_sha256": "cb58fb2072d2cb490777f7f34a20f0c1b32303850697d662b35aa42481604579",
+      "normalized_sha256": "cb58fb2072d2cb490777f7f34a20f0c1b32303850697d662b35aa42481604579"
+    },
+    {
+      "index": 29,
+      "prompt_id": "april-calib-029",
+      "prompt_sha256": "d60179600cdfb949e8f4a6cd91bc890bd38af15acfdabe976c1fe961eef82ab0",
+      "normalized_sha256": "d60179600cdfb949e8f4a6cd91bc890bd38af15acfdabe976c1fe961eef82ab0"
+    },
+    {
+      "index": 30,
+      "prompt_id": "april-calib-030",
+      "prompt_sha256": "1292dac8b85d25b63d220da911888bdcc8be1ac3742ce0cadde24cb1c1f3d0ba",
+      "normalized_sha256": "1292dac8b85d25b63d220da911888bdcc8be1ac3742ce0cadde24cb1c1f3d0ba"
+    },
+    {
+      "index": 31,
+      "prompt_id": "april-calib-031",
+      "prompt_sha256": "46e41f34a5fa8b2d823fe2345f8f0f25b4ce8dcc3c9eadd9a09b6008a8b28a1c",
+      "normalized_sha256": "46e41f34a5fa8b2d823fe2345f8f0f25b4ce8dcc3c9eadd9a09b6008a8b28a1c"
+    },
+    {
+      "index": 32,
+      "prompt_id": "april-calib-032",
+      "prompt_sha256": "991f7a8d87eecaae3b637ec78a5be97fdf70c0367feacffa89806bd4b2c8a9ee",
+      "normalized_sha256": "991f7a8d87eecaae3b637ec78a5be97fdf70c0367feacffa89806bd4b2c8a9ee"
+    },
+    {
+      "index": 33,
+      "prompt_id": "april-calib-033",
+      "prompt_sha256": "f10a33c5b0aef033194cd405fe3989c6922bd6e1ba810dabdfdd5b942fdbb5ee",
+      "normalized_sha256": "f10a33c5b0aef033194cd405fe3989c6922bd6e1ba810dabdfdd5b942fdbb5ee"
+    },
+    {
+      "index": 34,
+      "prompt_id": "april-calib-034",
+      "prompt_sha256": "a441f19159ac8e7e68e88ff3d1dfa056c989486b144f6bbe11a932a19ea6b4a8",
+      "normalized_sha256": "a441f19159ac8e7e68e88ff3d1dfa056c989486b144f6bbe11a932a19ea6b4a8"
+    },
+    {
+      "index": 35,
+      "prompt_id": "april-calib-035",
+      "prompt_sha256": "1d841cc3da4cacbc3bcef87dc73f3679858ee1f5a6142652284908d899fcbb9c",
+      "normalized_sha256": "1d841cc3da4cacbc3bcef87dc73f3679858ee1f5a6142652284908d899fcbb9c"
+    },
+    {
+      "index": 36,
+      "prompt_id": "april-calib-036",
+      "prompt_sha256": "a4859ac18e1117fcff0e7d0a0c432cae0c0637472e6a369f6d03d22fd7012413",
+      "normalized_sha256": "a4859ac18e1117fcff0e7d0a0c432cae0c0637472e6a369f6d03d22fd7012413"
+    },
+    {
+      "index": 37,
+      "prompt_id": "april-calib-037",
+      "prompt_sha256": "af1fb519cfbc92d4278f8a775ba9356fd9d17e8dde7f166655c5c5caef2c1b38",
+      "normalized_sha256": "af1fb519cfbc92d4278f8a775ba9356fd9d17e8dde7f166655c5c5caef2c1b38"
+    },
+    {
+      "index": 38,
+      "prompt_id": "april-calib-038",
+      "prompt_sha256": "81cef544c06cdb0545b9627de797783739e853c10cb91a0955e7d75678824d0e",
+      "normalized_sha256": "81cef544c06cdb0545b9627de797783739e853c10cb91a0955e7d75678824d0e"
+    },
+    {
+      "index": 39,
+      "prompt_id": "april-calib-039",
+      "prompt_sha256": "7bbe471a6a0f49560e069f7bfa5d48553bf36a663a45305490ba91957e590500",
+      "normalized_sha256": "7bbe471a6a0f49560e069f7bfa5d48553bf36a663a45305490ba91957e590500"
+    },
+    {
+      "index": 40,
+      "prompt_id": "april-calib-040",
+      "prompt_sha256": "c7c1d76342eb966d5548f026f266dbf76826c21a3d4a7ac917f657e30cf7e709",
+      "normalized_sha256": "c7c1d76342eb966d5548f026f266dbf76826c21a3d4a7ac917f657e30cf7e709"
+    },
+    {
+      "index": 41,
+      "prompt_id": "april-calib-041",
+      "prompt_sha256": "e9d2cd753f912259bc33fd96c14087ecd9ad7126e0218f2483a7623203de7b82",
+      "normalized_sha256": "e9d2cd753f912259bc33fd96c14087ecd9ad7126e0218f2483a7623203de7b82"
+    },
+    {
+      "index": 42,
+      "prompt_id": "april-calib-042",
+      "prompt_sha256": "e85a4fe8ded01510eafd72721ffb7ffca0000008e9348a25f5e2d3f2b16ccdde",
+      "normalized_sha256": "e85a4fe8ded01510eafd72721ffb7ffca0000008e9348a25f5e2d3f2b16ccdde"
+    },
+    {
+      "index": 43,
+      "prompt_id": "april-calib-043",
+      "prompt_sha256": "0a6845070b186f134c95d98347e685d9a0f2f1000ca94f6c356d2a60cbbed489",
+      "normalized_sha256": "0a6845070b186f134c95d98347e685d9a0f2f1000ca94f6c356d2a60cbbed489"
+    },
+    {
+      "index": 44,
+      "prompt_id": "april-calib-044",
+      "prompt_sha256": "58148647e7aee05101a2891051f3ab21418802483e00d995b09aea3c3d75fced",
+      "normalized_sha256": "58148647e7aee05101a2891051f3ab21418802483e00d995b09aea3c3d75fced"
+    },
+    {
+      "index": 45,
+      "prompt_id": "april-calib-045",
+      "prompt_sha256": "b64e85aa2fa335bdd387c92ad7e672feac47eba334f5d1cc02dd1f929c4951b9",
+      "normalized_sha256": "b64e85aa2fa335bdd387c92ad7e672feac47eba334f5d1cc02dd1f929c4951b9"
+    },
+    {
+      "index": 46,
+      "prompt_id": "april-calib-046",
+      "prompt_sha256": "825e28ef616c3544aba8af8b0aaee7007a44574fb694fadc0840e273e9eb951c",
+      "normalized_sha256": "825e28ef616c3544aba8af8b0aaee7007a44574fb694fadc0840e273e9eb951c"
+    },
+    {
+      "index": 47,
+      "prompt_id": "april-calib-047",
+      "prompt_sha256": "7af04f40fa83b5611f108eaba02527f5f47a71830530fafe273e1a93d9e6326d",
+      "normalized_sha256": "7af04f40fa83b5611f108eaba02527f5f47a71830530fafe273e1a93d9e6326d"
+    },
+    {
+      "index": 48,
+      "prompt_id": "april-calib-048",
+      "prompt_sha256": "60ee40607a8a386071dc4c571fa881a79ad4aac6b02d36017afd84851f85166f",
+      "normalized_sha256": "60ee40607a8a386071dc4c571fa881a79ad4aac6b02d36017afd84851f85166f"
+    },
+    {
+      "index": 49,
+      "prompt_id": "april-calib-049",
+      "prompt_sha256": "5ccd87e4f14ed511bce9adf4e06dde13304b3fc3679e5b002b8e4683abefa68a",
+      "normalized_sha256": "5ccd87e4f14ed511bce9adf4e06dde13304b3fc3679e5b002b8e4683abefa68a"
+    },
+    {
+      "index": 50,
+      "prompt_id": "april-calib-050",
+      "prompt_sha256": "eee71ef763a7ee5586604c49dfb93dc55464f5a1f9c0daa63148adbb6cbe46e6",
+      "normalized_sha256": "eee71ef763a7ee5586604c49dfb93dc55464f5a1f9c0daa63148adbb6cbe46e6"
+    },
+    {
+      "index": 51,
+      "prompt_id": "april-calib-051",
+      "prompt_sha256": "f598c89bf02660b39bce6990413f1c5b7c3ae9a546142a02dfeacbfa5b3bcbde",
+      "normalized_sha256": "f598c89bf02660b39bce6990413f1c5b7c3ae9a546142a02dfeacbfa5b3bcbde"
+    },
+    {
+      "index": 52,
+      "prompt_id": "april-calib-052",
+      "prompt_sha256": "df15398ce23311e456f37a62c918dd717ae313fe66c254ff20ad2de73a58c64b",
+      "normalized_sha256": "df15398ce23311e456f37a62c918dd717ae313fe66c254ff20ad2de73a58c64b"
+    },
+    {
+      "index": 53,
+      "prompt_id": "april-calib-053",
+      "prompt_sha256": "7d3ce40be2e924f1a4ebfa6d7a00afca122909a7d875a78269c04b609b4221e3",
+      "normalized_sha256": "7d3ce40be2e924f1a4ebfa6d7a00afca122909a7d875a78269c04b609b4221e3"
+    },
+    {
+      "index": 54,
+      "prompt_id": "april-calib-054",
+      "prompt_sha256": "bbd29bbe686f3fe4d0c110472b4987f96d6d6b5f0d94d2f9d16ae558a0664105",
+      "normalized_sha256": "bbd29bbe686f3fe4d0c110472b4987f96d6d6b5f0d94d2f9d16ae558a0664105"
+    },
+    {
+      "index": 55,
+      "prompt_id": "april-calib-055",
+      "prompt_sha256": "2e388618b85646178ab2fc4f9666100672523c82f78d2214f88732bb26109c25",
+      "normalized_sha256": "2e388618b85646178ab2fc4f9666100672523c82f78d2214f88732bb26109c25"
+    },
+    {
+      "index": 56,
+      "prompt_id": "april-calib-056",
+      "prompt_sha256": "46828364a692595a71f98624067fe65589af13d56fa6f4a445dcda669a8c7d73",
+      "normalized_sha256": "46828364a692595a71f98624067fe65589af13d56fa6f4a445dcda669a8c7d73"
+    },
+    {
+      "index": 57,
+      "prompt_id": "april-calib-057",
+      "prompt_sha256": "b3543fe977a909ebbe18e39878e12ee455d59874a4ca4d090338ac54fa034207",
+      "normalized_sha256": "b3543fe977a909ebbe18e39878e12ee455d59874a4ca4d090338ac54fa034207"
+    },
+    {
+      "index": 58,
+      "prompt_id": "april-calib-058",
+      "prompt_sha256": "11121d70b07d4bf95c2d90439cf76ae24f5175338b1d60df50c0a7e830f49c48",
+      "normalized_sha256": "11121d70b07d4bf95c2d90439cf76ae24f5175338b1d60df50c0a7e830f49c48"
+    },
+    {
+      "index": 59,
+      "prompt_id": "april-calib-059",
+      "prompt_sha256": "54aa6af2778df1ecbd95704c2de97e72c9a120677427f79c0ce4dcab0d692252",
+      "normalized_sha256": "54aa6af2778df1ecbd95704c2de97e72c9a120677427f79c0ce4dcab0d692252"
+    },
+    {
+      "index": 60,
+      "prompt_id": "april-calib-060",
+      "prompt_sha256": "e19f63c88152fcd1aed9a82c3241a21556441a898c9ea20a7c8209d752ef9e0d",
+      "normalized_sha256": "e19f63c88152fcd1aed9a82c3241a21556441a898c9ea20a7c8209d752ef9e0d"
+    },
+    {
+      "index": 61,
+      "prompt_id": "april-calib-061",
+      "prompt_sha256": "96a80d9904114937b70f4eba377e986e1dfe109f37a85b1845a375e2d90cf559",
+      "normalized_sha256": "96a80d9904114937b70f4eba377e986e1dfe109f37a85b1845a375e2d90cf559"
+    },
+    {
+      "index": 62,
+      "prompt_id": "april-calib-062",
+      "prompt_sha256": "ec3b6db94c19daf15127061eee06e05788017cf2c712a2532af8c6a629a52348",
+      "normalized_sha256": "ec3b6db94c19daf15127061eee06e05788017cf2c712a2532af8c6a629a52348"
+    },
+    {
+      "index": 63,
+      "prompt_id": "april-calib-063",
+      "prompt_sha256": "1e134ac25fd28cae28b5d41c53f41954fcb36e0b6d856e771ecef4de43f9cb68",
+      "normalized_sha256": "1e134ac25fd28cae28b5d41c53f41954fcb36e0b6d856e771ecef4de43f9cb68"
+    }
+  ],
+  "normalization": "NFKC; CRLF/CR to LF; strip; collapse whitespace; preserve case",
+  "evaluation_unique_raw_prompts": 5414,
+  "overlap": {
+    "prompt_id": 0,
+    "prompt_sha256": 0,
+    "normalized_sha256": 0
+  }
+}

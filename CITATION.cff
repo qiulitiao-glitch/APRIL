@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite the APRIL paper using the preferred citation below."
+title: "APRIL: Adaptive Proposal Routing with In-Request Lookup for Self-Speculative LLM Serving at the Edge"
+type: software
+version: 1.0.0
+license: PolyForm-Noncommercial-1.0.0
+authors:
+  - family-names: "Qiu"
+    given-names: "Litiao"
+  - family-names: "Shu"
+    given-names: "Yanjun"
+  - family-names: "Peng"
+    given-names: "Long"
+  - family-names: "Xu"
+    given-names: "Hao"
+  - family-names: "Zuo"
+    given-names: "Decheng"
+  - family-names: "Yu"
+    given-names: "Jie"
+preferred-citation:
+  type: conference-paper
+  title: "APRIL: Adaptive Proposal Routing with In-Request Lookup for Self-Speculative LLM Serving at the Edge"
+  authors:
+    - family-names: "Qiu"
+      given-names: "Litiao"
+    - family-names: "Shu"
+      given-names: "Yanjun"
+    - family-names: "Peng"
+      given-names: "Long"
+    - family-names: "Xu"
+      given-names: "Hao"
+    - family-names: "Zuo"
+      given-names: "Decheng"
+    - family-names: "Yu"
+      given-names: "Jie"
+  conference:
+    name: "International Conference on Service-Oriented Computing (ICSOC 2026)"
+  year: 2026

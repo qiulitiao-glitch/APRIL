@@ -1,0 +1,149 @@
+[
+  {
+    "field": "april_main.offline_profiling.selection_seed",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "april_main.offline_profiling.preprocessing",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "april_main.offline_profiling.historical_selector_identity",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "april_main.offline_profiling.formal_pruning_rule",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "april_main.offline_profiling.tie_breaking",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "april_main.offline_profiling.warmup",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "april_main.offline_profiling.repetitions",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "april_main.offline_profiling.per_model_device_profile",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "del_paper_baseline.K_search",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "DEL is an external historical baseline; archived measurements and experiment configuration retained, no DEL runtime shipped."
+  },
+  {
+    "field": "dataset_protocol.workloads.cnn_dm_summarization.historical_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.cnn_dm_lm.historical_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.xsum_summarization.version_or_config",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.xsum_summarization.historical_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.humaneval.version_or_config",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.humaneval.historical_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.gsm8k.historical_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.aqua_rat.version_or_config",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.aqua_rat.historical_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.wmt14_de_en.version_or_config",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.workloads.wmt14_de_en.historical_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "dataset_protocol.historical_malformed_handling",
+    "category": "OPTIONAL_METADATA",
+    "reason": "All frozen IDs and content hashes must reconstruct; malformed or missing input fails closed in public preparation."
+  },
+  {
+    "field": "software_environment.hf_model_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "software_environment.tokenizer_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "software_environment.historical_layerskip_revision",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Exact historical acquisition/selection metadata is unavailable; frozen artifacts and request hashes establish identity."
+  },
+  {
+    "field": "software_environment.environment_variables.additional_historical_variables",
+    "category": "OPTIONAL_METADATA",
+    "reason": "No extra settings claimed. Active deterministic/eager execution flags and validation environment are explicit."
+  },
+  {
+    "field": "software_environment.other_seeds.additional_libraries",
+    "category": "OPTIONAL_METADATA",
+    "reason": "No extra settings claimed. Active deterministic/eager execution flags and validation environment are explicit."
+  },
+  {
+    "field": "software_environment.other_kernel_versions",
+    "category": "OPTIONAL_METADATA",
+    "reason": "No extra settings claimed. Active deterministic/eager execution flags and validation environment are explicit."
+  },
+  {
+    "field": "statistics.main_timing_bootstrap_seed",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Historical main timing-CI provenance unavailable. Public Table 2 reports measured point estimates only and makes no timing-CI claim; paper correction is explicitly recorded.",
+    "interpretation_constraint": "Do not claim a reconstructed main timing CI."
+  },
+  {
+    "field": "statistics.main_timing_ci_method",
+    "category": "NONBLOCKING_PROVENANCE",
+    "reason": "Historical main timing-CI provenance unavailable. Public Table 2 reports measured point estimates only and makes no timing-CI claim; paper correction is explicitly recorded.",
+    "interpretation_constraint": "Do not claim a reconstructed main timing CI."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "historical_campaign": "APRIL-main-throughput",
+    "historical_file": "quartet_results.jsonl",
+    "historical_sha256": "a4254b28a7feea268d76920e78d17b5ce5b74e85d35e7d287263ca58b4e0c728",
+    "exported_file": "main_measurements.jsonl",
+    "exported_sha256": "e7e0faa7411870b76b1a5610ffce0c73e82ca5213bfcd972331a69bf6e6f1752",
+    "rows": 21664
+  },
+  {
+    "historical_campaign": "PLD-main-throughput",
+    "historical_file": "prompt_lookup_results.jsonl",
+    "historical_sha256": "d981effe28befec7b18ed8dc36e6edb527f7e494fc1c0170cb3d62248e2531c4",
+    "exported_file": "pld_measurements.jsonl",
+    "exported_sha256": "54fa2359f360fd8dc80f62165da553f00010ea5afe324159c0e66cedf169975d",
+    "rows": 5416
+  }
+]

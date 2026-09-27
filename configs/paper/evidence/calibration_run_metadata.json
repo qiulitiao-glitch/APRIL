@@ -1,0 +1,19 @@
+{
+  "run_id": "april-calibration-validation",
+  "created_at": "2026-07-08 18:48:58",
+  "purpose": "Task-agnostic calibration validation for APRIL candidate layers",
+  "scope": "Validation-only; not the historical selector for current main-table experiments.",
+  "strategies": "tr_safe_direct_d4_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d5_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d6_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d7_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d8_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d9_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d10_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d11_k20_fk6_s70_c55_p1_q4_r0_hw_ti8,tr_safe_direct_d12_k20_fk6_s70_c55_p1_q4_r0_hw_ti8",
+  "layers": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "records": 64
+}

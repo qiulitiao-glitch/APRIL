@@ -1,0 +1,2 @@
+# Preserve exact artifact bytes on every platform, including frozen evidence.
+* -text

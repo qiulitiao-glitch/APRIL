@@ -1,0 +1,108 @@
+{
+  "a800": {
+    "source_script_sha256": "11958e88a66220d5b63bd1706558deba0fb8f049547198b4583df5fd8e95f4b6",
+    "source_results_sha256": "7ca06e6dff26506f74bf3778a1b9ffc97873a1f1652621388632727d9a8f65ed",
+    "replicates": 10000,
+    "rng": "Python random.Random",
+    "overall_seed": 20260716,
+    "per_workload_seeds": {
+      "aqua_rat": 20260822,
+      "cnn_dm_lm": 20260820,
+      "cnn_dm_summarization": 20260816,
+      "gsm8k": 20260821,
+      "humaneval": 20260818,
+      "wmt14_de_en": 20260819,
+      "xsum_summarization": 20260817
+    },
+    "ci": "Percentile 95% interval; quantiles .025 and .975; linear interpolation at (N-1)*q in sorted replicate estimates",
+    "estimand": "APRIL/DEL ratio-of-sums TPS minus one",
+    "sampling": "Resample paired requests with replacement, keeping each workload count for overall; a single task for per-workload CI",
+    "moving_block": {
+      "16": {
+        "seed": 20261732,
+        "replicates": 10000,
+        "bootstrap": "within_episode_circular_moving_block"
+      },
+      "32": {
+        "seed": 20261748,
+        "replicates": 10000,
+        "bootstrap": "within_episode_circular_moving_block"
+      },
+      "8": {
+        "seed": 20261724,
+        "replicates": 10000,
+        "bootstrap": "within_episode_circular_moving_block"
+      }
+    },
+    "moving_block_scope": "block-size intervals are sensitivity analyses within one new A800 controller episode, not independent hardware replications"
+  },
+  "h100": {
+    "source_script_sha256": "f540b21577ff1ae59dd75dd6de1474abf19c5b340f0eb4da53652a48085bb8d5",
+    "source_results_sha256": "84c4b6d1f44c3d93de4554e308d60c3e9cb792540aeb4a8d1cf848bc611cce08",
+    "replicates": 10000,
+    "rng": "Python random.Random",
+    "overall_seed": 20260716,
+    "per_workload_seeds": {
+      "aqua_rat": 20260822,
+      "cnn_dm_lm": 20260820,
+      "cnn_dm_summarization": 20260816,
+      "gsm8k": 20260821,
+      "humaneval": 20260818,
+      "wmt14_de_en": 20260819,
+      "xsum_summarization": 20260817
+    },
+    "ci": "Percentile 95% interval; quantiles .025 and .975; linear interpolation at (N-1)*q in sorted replicate estimates",
+    "estimand": "APRIL/DEL ratio-of-sums TPS minus one",
+    "sampling": "Resample paired requests with replacement, keeping each workload count for overall; a single task for per-workload CI",
+    "moving_block": {
+      "16": {
+        "seed": 20261732,
+        "replicates": 10000,
+        "bootstrap": "within_episode_circular_moving_block"
+      },
+      "32": {
+        "seed": 20261748,
+        "replicates": 10000,
+        "bootstrap": "within_episode_circular_moving_block"
+      },
+      "8": {
+        "seed": 20261724,
+        "replicates": 10000,
+        "bootstrap": "within_episode_circular_moving_block"
+      }
+    },
+    "moving_block_scope": "block-size intervals are sensitivity analyses within one new H100 controller episode, not independent hardware replications"
+  },
+  "budget_source_script_sha256": "0a5da766e8bbf3016d9e18c9731cc9fb551f6dea0d57f104af014030916bf21b",
+  "output_budget": {
+    "budgets": [
+      64,
+      128,
+      256
+    ],
+    "requests_per_budget": 448,
+    "rng": "Python random.Random",
+    "replicates": 10000,
+    "workload_index_order": [
+      "overall",
+      "cnn_dm_summarization",
+      "cnn_dm_lm",
+      "xsum_summarization",
+      "humaneval_code",
+      "gsm8k_cot",
+      "aqua_rat_cot",
+      "wmt14_negative_control"
+    ],
+    "seed_formula": "20260715 + 100 * output_budget + workload_index",
+    "overall_seeds": {
+      "64": 20267115,
+      "128": 20273515,
+      "256": 20286315
+    },
+    "sampling": "Prompt-paired with replacement; task-stratified overall; sorted task-key iteration; preserve pair insertion order within each task",
+    "estimand": "100 * (APRIL ratio-of-sums TPS / DEL ratio-of-sums TPS - 1)",
+    "ci": "Percentile 95%; sorted replicate estimates; linear interpolation at (N-1)*q for q=.025,.975",
+    "historical_validity_checks": "Require 896 rows / 448 complete APRIL-DEL pairs after hardware eligibility filtering; exact_vs_frozen_ar flag true in this archived supplemental analysis, not a universal paper claim",
+    "source_script_sha256": "0a5da766e8bbf3016d9e18c9731cc9fb551f6dea0d57f104af014030916bf21b"
+  }
+}

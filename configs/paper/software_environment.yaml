@@ -1,0 +1,120 @@
+{
+  "authoritative_snapshot": "PAPER_FROZEN_CONFIG.json",
+  "snapshot_section": "sections.software_environment",
+  "settings": {
+    "cudnn_version": 8902,
+    "platform": "Linux-6.1.0-4-generic-x86_64-with-glibc2.36",
+    "python_version": "3.10.19",
+    "pytorch_version": "2.2.1+cu121",
+    "torch_cuda_version": "12.1",
+    "transformers_version": "4.45.2",
+    "scope": "Recorded cross-device environment; main historical full environment equivalence unresolved",
+    "model_identity": {
+      "files": [
+        {
+          "relative_path": "config.json",
+          "sha256": "f884817531e2589b45a2d00993d3cf1f67253866a343f4c574c510ee82b1697f",
+          "size_bytes": 637
+        },
+        {
+          "relative_path": "generation_config.json",
+          "sha256": "53912d1e42e24314ffb9eeb49f2074c2d2aae8081242d844fc58e2779d19ee78",
+          "size_bytes": 213
+        },
+        {
+          "relative_path": "model-00001-of-00003.safetensors",
+          "sha256": "2b7dfa0d333b3bb5b7887c8b0f438ff5f19e2419d383df68fc39d9447cd65baf",
+          "size_bytes": 4938985248
+        },
+        {
+          "relative_path": "model-00002-of-00003.safetensors",
+          "sha256": "355e5fc19f1aa322ce1bc110b29f4d71d41d4d7abfdacfabdde5ebfead818e9b",
+          "size_bytes": 4947390768
+        },
+        {
+          "relative_path": "model-00003-of-00003.safetensors",
+          "sha256": "99fa5347306b922848061f684c4f3dab747ab8d9669c4c7b0d9f71f027428870",
+          "size_bytes": 3590488736
+        },
+        {
+          "relative_path": "model.safetensors.index.json",
+          "sha256": "4b09b953be2901b9f824fd1a7a91ef7f4f15726f6e7b6c2cfc4c5cee03975963",
+          "size_bytes": 25125
+        },
+        {
+          "relative_path": "special_tokens_map.json",
+          "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+          "size_bytes": 414
+        },
+        {
+          "relative_path": "tokenizer.model",
+          "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+          "size_bytes": 499723
+        },
+        {
+          "relative_path": "tokenizer_config.json",
+          "sha256": "bcdc6f267b05e1afd27fa622a62fea649bcb941e6dc705d2835883a0746192da",
+          "size_bytes": 932
+        }
+      ],
+      "model_identity_sha256": "4958fa041b753c72af76fe0b70e4850a66a08a9c667386838d31a3fb4ee850e5",
+      "tokenizer_identity_sha256": "3a4c2b18abb20973ce3f43a917e224012d371265b56145bf297e8caf3a2c6a4c"
+    },
+    "hf_model_identifier": "facebook/layerskip-llama2-7B",
+    "hf_model_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+    "tokenizer_identifier": "facebook/layerskip-llama2-7B",
+    "tokenizer_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+    "content_verified_public_revision": "7e0b20094ef76fb18fd8a9bdf7ee019c3d7b8880",
+    "revision_note": "Content-verified public revision is an acquisition identity; original historical pinned revision was not recorded.",
+    "historical_layerskip_revision": "HYPERPARAMETER_VALUE_UNRESOLVED",
+    "public_external_layerskip": {
+      "url": "https://github.com/facebookresearch/LayerSkip",
+      "revision": "494752e5fbb0a82989f6cb384841684b1c2ef5c3",
+      "sha256": {
+        "self_speculation/llama_model_utils.py": "5eb454b12b4c99f97b94acdcff0b52c38eeb9d1ce986e10e2b4658e9bc479da2",
+        "LICENSE": "5597bb25219e348387edfbf34cfed051cb7f9be29b6488731b9b48db75dcc8eb"
+      }
+    },
+    "dtype": "float16",
+    "attention_backend": "eager",
+    "device_placement": "Single GPU per request; two independent main workload shards",
+    "environment_variables": {
+      "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+      "additional_historical_variables": "HYPERPARAMETER_VALUE_UNRESOLVED"
+    },
+    "deterministic_flags": {
+      "torch_use_deterministic_algorithms": true,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "allow_fp16_reduced_precision_reduction": false,
+      "allow_bf16_reduced_precision_reduction": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "source": "APRIL-owned run_retrieval_ab.py:configure_torch, called by paper worker"
+    },
+    "main_seed": 20260712,
+    "other_seeds": {
+      "torch_per_request": "20260712 + source_index",
+      "additional_libraries": "HYPERPARAMETER_VALUE_UNRESOLVED"
+    },
+    "compilation_settings": "No torch.compile or graph compilation invoked by frozen worker",
+    "flash_attention_version": "NOT_APPLICABLE: eager attention; flash SDP disabled",
+    "other_kernel_versions": "HYPERPARAMETER_VALUE_UNRESOLVED",
+    "public_validation_package_versions": {
+      "accelerate": "1.0.1",
+      "numpy": "1.26.4",
+      "sentencepiece": "0.2.0",
+      "protobuf": "5.28.2",
+      "safetensors": "0.7.0",
+      "PyYAML": "6.0.3",
+      "psutil": "7.2.1",
+      "pyarrow": "22.0.0",
+      "huggingface-hub": "0.36.0",
+      "pytest": "8.3.3",
+      "sacrebleu": "2.6.0",
+      "tokenizers": "0.20.3"
+    },
+    "public_device_binding": "Resolve requested nvidia-smi physical index to GPU UUID before importing torch; verify own PID on that UUID after model allocation. Numeric CUDA and nvidia-smi indices need not agree."
+  }
+}

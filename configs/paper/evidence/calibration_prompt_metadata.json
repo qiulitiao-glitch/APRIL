@@ -1,0 +1,7 @@
+{
+  "purpose": "Task-agnostic APRIL candidate-layer calibration prompts.",
+  "not_used_for": "Main evaluation or task-specific tuning.",
+  "records": 64,
+  "dataset": "april_task_agnostic_calibration_stage64",
+  "source": "Hand-written synthetic prompts generated from generic topics and instruction templates."
+}

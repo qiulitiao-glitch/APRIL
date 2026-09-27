@@ -1,0 +1,70 @@
+{
+  "source_sha256": "06f7193c027eb4ff318ca1fa92be03522368493bcef3b7206af9aa21b022e7af",
+  "source_name": "v6_extracted.txt",
+  "excerpts": [
+    {
+      "line": 229,
+      "text": "in the candidate. Let OKz denote the set of valid historical positions that match"
+    },
+    {
+      "line": 245,
+      "text": "at most a ﬁxed number of historical positions, and ﬁxed host and device buﬀers"
+    },
+    {
+      "line": 263,
+      "text": "exponentially:"
+    },
+    {
+      "line": 343,
+      "text": "amines at most a capped number of historical positions. Candidate lengths and"
+    },
+    {
+      "line": 380,
+      "text": "numerical-consistency check fails, the recovery procedure re-executes one target"
+    },
+    {
+      "line": 402,
+      "text": "token-by-token decoding; (2) LayerSkip [6], static L7/K6 self-speculative decod-"
+    },
+    {
+      "line": 407,
+      "text": "(5) APRIL. In the 5,416-request main experiment, APRIL uses E ={7, 8}and"
+    },
+    {
+      "line": 408,
+      "text": "K ={4, 6, 8, 10, 12, 16, 20}. The A800 and H100 validation runs use the reduced"
+    },
+    {
+      "line": 409,
+      "text": "setK ={4, 12, 20}; all other control and generation settings remain unchanged."
+    },
+    {
+      "line": 415,
+      "text": "to 256 new tokens and stops at EOS. Conﬁdence intervals are based on 10,000"
+    }
+  ],
+  "claims": {
+    "E": [
+      7,
+      8
+    ],
+    "main_K": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      16,
+      20
+    ],
+    "cross_K": [
+      4,
+      12,
+      20
+    ],
+    "layerskip_E": 7,
+    "layerskip_K": 6,
+    "max_new_tokens": 256,
+    "bootstrap_replicates": 10000
+  }
+}
